@@ -1,0 +1,17 @@
+.email {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.copy {
+    margin-bottom: 2rem;
+}

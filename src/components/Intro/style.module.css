@@ -1,0 +1,52 @@
+
+.homeHeader {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400px;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 115vh;
+    position: absolute;
+    filter: brightness(60%);
+}
+
+.backgroundImage img {
+    object-fit: cover;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 45vh;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.intro h1 {
+    color: white;
+    font-size: 6vw;
+    z-index: 3;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.intro p{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team{
+    position: relative;
+}
